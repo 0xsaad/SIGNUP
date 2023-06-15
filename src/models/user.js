@@ -1,6 +1,6 @@
 var mongoose = require("mongoose");
 
-const formSchema = new mongoose.Schema({
+const userSchema = new mongoose.Schema({
   firstName: String,
   lastName: String,
   email: String,
@@ -10,4 +10,4 @@ const formSchema = new mongoose.Schema({
   imagePath: String
 });
 
-module.exports = mongoose.model("Form", formSchema);
+module.exports = mongoose.model("User", userSchema);

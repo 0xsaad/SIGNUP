@@ -1,4 +1,4 @@
-const Form = require("../models/form");
+const Form = require("../models/user");
 const bcrypt = require("bcrypt");
 
 exports.getForm = async (req, res) => {
